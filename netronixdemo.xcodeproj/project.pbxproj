@@ -15,6 +15,10 @@
 		7C21D0672043FEEC0057967A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21D0662043FEEC0057967A /* main.m */; };
 		7C21D0712043FEEC0057967A /* netronixdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21D0702043FEEC0057967A /* netronixdemoTests.m */; };
 		7C21D07C2043FEEC0057967A /* netronixdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21D07B2043FEEC0057967A /* netronixdemoUITests.m */; };
+		7C21D08C204439520057967A /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21D08B204439520057967A /* ServerManager.m */; };
+		C721A4BC74C79AB438A4EC6C /* Pods_netronixdemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DF6EC8355B5EF26FD21496 /* Pods_netronixdemoUITests.framework */; };
+		E2E82E4A8A84785BAFCB0DEB /* Pods_netronixdemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC760B97E6634F3B8B84B2E /* Pods_netronixdemoTests.framework */; };
+		E9EEFB15F7D06F188DDBE860 /* Pods_netronixdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474F76A9EA46BA7FD60C0FCD /* Pods_netronixdemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		474F76A9EA46BA7FD60C0FCD /* Pods_netronixdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netronixdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC760B97E6634F3B8B84B2E /* Pods_netronixdemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netronixdemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6444E0620377696FB81CCEA0 /* Pods-netronixdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netronixdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netronixdemo/Pods-netronixdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		657786BF69844813A65EA3C8 /* Pods-netronixdemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netronixdemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netronixdemoTests/Pods-netronixdemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7C21D0542043FEEC0057967A /* netronixdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netronixdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C21D0572043FEEC0057967A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C21D0582043FEEC0057967A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,15 @@
 		7C21D0772043FEEC0057967A /* netronixdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = netronixdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C21D07B2043FEEC0057967A /* netronixdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = netronixdemoUITests.m; sourceTree = "<group>"; };
 		7C21D07D2043FEEC0057967A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C21D08A204439520057967A /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
+		7C21D08B204439520057967A /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		7C21D08D204441840057967A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7C21D08E204441BE0057967A /* DebugLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		A004CADC099C6A7E359499D8 /* Pods-netronixdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netronixdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-netronixdemo/Pods-netronixdemo.release.xcconfig"; sourceTree = "<group>"; };
+		AF6737738A1CBCB0B74F6AB6 /* Pods-netronixdemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netronixdemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-netronixdemoTests/Pods-netronixdemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7DF6EC8355B5EF26FD21496 /* Pods_netronixdemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_netronixdemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0B3978F66B19CE7281B627 /* Pods-netronixdemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netronixdemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-netronixdemoUITests/Pods-netronixdemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6256921C6DEB66AF1DBC3D5 /* Pods-netronixdemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-netronixdemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-netronixdemoUITests/Pods-netronixdemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9EEFB15F7D06F188DDBE860 /* Pods_netronixdemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E82E4A8A84785BAFCB0DEB /* Pods_netronixdemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +91,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C721A4BC74C79AB438A4EC6C /* Pods_netronixdemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		513DBE2539C5ECA2E998893E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6444E0620377696FB81CCEA0 /* Pods-netronixdemo.debug.xcconfig */,
+				A004CADC099C6A7E359499D8 /* Pods-netronixdemo.release.xcconfig */,
+				657786BF69844813A65EA3C8 /* Pods-netronixdemoTests.debug.xcconfig */,
+				AF6737738A1CBCB0B74F6AB6 /* Pods-netronixdemoTests.release.xcconfig */,
+				DF0B3978F66B19CE7281B627 /* Pods-netronixdemoUITests.debug.xcconfig */,
+				F6256921C6DEB66AF1DBC3D5 /* Pods-netronixdemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C21D04B2043FEEC0057967A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,8 @@
 				7C21D06F2043FEEC0057967A /* netronixdemoTests */,
 				7C21D07A2043FEEC0057967A /* netronixdemoUITests */,
 				7C21D0552043FEEC0057967A /* Products */,
+				513DBE2539C5ECA2E998893E /* Pods */,
+				8560957EAAB273B964777F37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +136,7 @@
 		7C21D0562043FEEC0057967A /* netronixdemo */ = {
 			isa = PBXGroup;
 			children = (
+				7C21D089204438640057967A /* ServerManager */,
 				7C21D0572043FEEC0057967A /* AppDelegate.h */,
 				7C21D0582043FEEC0057967A /* AppDelegate.m */,
 				7C21D05A2043FEEC0057967A /* ViewController.h */,
@@ -110,6 +146,8 @@
 				7C21D0622043FEEC0057967A /* LaunchScreen.storyboard */,
 				7C21D0652043FEEC0057967A /* Info.plist */,
 				7C21D0662043FEEC0057967A /* main.m */,
+				7C21D08D204441840057967A /* PrefixHeader.pch */,
+				7C21D08E204441BE0057967A /* DebugLog.h */,
 			);
 			path = netronixdemo;
 			sourceTree = "<group>";
@@ -132,6 +170,25 @@
 			path = netronixdemoUITests;
 			sourceTree = "<group>";
 		};
+		7C21D089204438640057967A /* ServerManager */ = {
+			isa = PBXGroup;
+			children = (
+				7C21D08A204439520057967A /* ServerManager.h */,
+				7C21D08B204439520057967A /* ServerManager.m */,
+			);
+			path = ServerManager;
+			sourceTree = "<group>";
+		};
+		8560957EAAB273B964777F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				474F76A9EA46BA7FD60C0FCD /* Pods_netronixdemo.framework */,
+				4FC760B97E6634F3B8B84B2E /* Pods_netronixdemoTests.framework */,
+				C7DF6EC8355B5EF26FD21496 /* Pods_netronixdemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C21D0802043FEEC0057967A /* Build configuration list for PBXNativeTarget "netronixdemo" */;
 			buildPhases = (
+				283F6EAC8F7001D42A056479 /* [CP] Check Pods Manifest.lock */,
 				7C21D0502043FEEC0057967A /* Sources */,
 				7C21D0512043FEEC0057967A /* Frameworks */,
 				7C21D0522043FEEC0057967A /* Resources */,
+				364C7316FC13617C0EF3DC81 /* [CP] Embed Pods Frameworks */,
+				56DD3A4AF7EB25519FBAA16F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C21D0832043FEEC0057967A /* Build configuration list for PBXNativeTarget "netronixdemoTests" */;
 			buildPhases = (
+				137961D533252AC4AEC7B1A2 /* [CP] Check Pods Manifest.lock */,
 				7C21D0682043FEEC0057967A /* Sources */,
 				7C21D0692043FEEC0057967A /* Frameworks */,
 				7C21D06A2043FEEC0057967A /* Resources */,
+				076EDE4DBE4C5EB54FC86F4D /* [CP] Embed Pods Frameworks */,
+				32E8AC6373B5C10057BF40E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C21D0862043FEEC0057967A /* Build configuration list for PBXNativeTarget "netronixdemoUITests" */;
 			buildPhases = (
+				02B3190C4AA47F180BB2D925 /* [CP] Check Pods Manifest.lock */,
 				7C21D0732043FEEC0057967A /* Sources */,
 				7C21D0742043FEEC0057967A /* Frameworks */,
 				7C21D0752043FEEC0057967A /* Resources */,
+				0A49A07A0B09DE9E1B5F7452 /* [CP] Embed Pods Frameworks */,
+				D54033405A30C3FA3C84E14B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,11 +326,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02B3190C4AA47F180BB2D925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		076EDE4DBE4C5EB54FC86F4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netronixdemoTests/Pods-netronixdemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A49A07A0B09DE9E1B5F7452 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netronixdemoUITests/Pods-netronixdemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		137961D533252AC4AEC7B1A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		283F6EAC8F7001D42A056479 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32E8AC6373B5C10057BF40E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netronixdemoTests/Pods-netronixdemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		364C7316FC13617C0EF3DC81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netronixdemo/Pods-netronixdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56DD3A4AF7EB25519FBAA16F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netronixdemo/Pods-netronixdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54033405A30C3FA3C84E14B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-netronixdemoUITests/Pods-netronixdemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C21D0502043FEEC0057967A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C21D08C204439520057967A /* ServerManager.m in Sources */,
 				7C21D05C2043FEEC0057967A /* ViewController.m in Sources */,
 				7C21D0672043FEEC0057967A /* main.m in Sources */,
 				7C21D0592043FEEC0057967A /* AppDelegate.m in Sources */,
@@ -428,10 +633,16 @@
 		};
 		7C21D0812043FEEC0057967A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6444E0620377696FB81CCEA0 /* Pods-netronixdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F22LEG9BN8;
+				GCC_PREFIX_HEADER = "${SRCROOT}/netronixdemo/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEVELOPMENT=1",
+				);
 				INFOPLIST_FILE = netronixdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lv.extela.netronixdemo;
@@ -442,10 +653,12 @@
 		};
 		7C21D0822043FEEC0057967A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A004CADC099C6A7E359499D8 /* Pods-netronixdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F22LEG9BN8;
+				GCC_PREFIX_HEADER = "${SRCROOT}/netronixdemo/PrefixHeader.pch";
 				INFOPLIST_FILE = netronixdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lv.extela.netronixdemo;
@@ -456,6 +669,7 @@
 		};
 		7C21D0842043FEEC0057967A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657786BF69844813A65EA3C8 /* Pods-netronixdemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +685,7 @@
 		};
 		7C21D0852043FEEC0057967A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6737738A1CBCB0B74F6AB6 /* Pods-netronixdemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +701,7 @@
 		};
 		7C21D0872043FEEC0057967A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0B3978F66B19CE7281B627 /* Pods-netronixdemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F22LEG9BN8;
@@ -500,6 +716,7 @@
 		};
 		7C21D0882043FEEC0057967A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6256921C6DEB66AF1DBC3D5 /* Pods-netronixdemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F22LEG9BN8;
